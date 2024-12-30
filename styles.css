@@ -543,7 +543,7 @@ footer {
 }
 
 .footer__col h4 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--text-dark);

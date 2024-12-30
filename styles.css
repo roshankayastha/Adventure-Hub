@@ -161,7 +161,7 @@ header::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("assets/header-bg.jpg");
+  background-image: url("assets/road.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,7 +189,7 @@ header::before {
   margin-bottom: 2rem;
   font-size: 4.5rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: #ffffff;
   line-height: 5.5rem;
   text-align: center;
 }
@@ -367,8 +367,8 @@ header::before {
   margin-top: 2rem;
   padding: 1.5rem;
   font-weight: 600;
-  color: var(--text-dark);
-  background-image: url("assets/header-bg.jpg");
+  color: #ffffff;
+  background-image: url("assets/bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -597,6 +597,27 @@ footer {
   color: var(--text-light);
   text-align: center;
 }
+.footer__col {
+  padding-inline: 1rem; /* Adds spacing within each column */
+}
+
+.footer__payments {
+  margin-right: auto; /* Ensures the payment logos align neatly without encroaching on other sections */
+}
+.footer__payments img {
+  max-height: 50px;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer__payments img:hover {
+  transform: scale(1.1); /* Slightly enlarges the logo */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for emphasis */
+}
+
+
+
 
 @media (width > 540px) {
   .destination__grid {
